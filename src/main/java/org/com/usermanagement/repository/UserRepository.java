@@ -1,14 +1,8 @@
 package org.com.usermanagement.repository;
 
-import org.com.usermanagement.dto.UserResponce;
-import org.springframework.stereotype.Repository;
+import org.com.usermanagement.userEntity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
-public class UserRepository {
-    public UserResponce findById(int id){
-        if (id == 1) {
-            return new UserResponce(1, "Kunal");
-        }
-        return null;
-    }
+public interface UserRepository extends JpaRepository<User, Long> {
+
 }

@@ -1,15 +1,25 @@
 package org.com.usermanagement.dto;
 
 public class UserResponce {
-    private int id;
+    private long id;
     private String name;
+    private String email;
 
-    public UserResponce(int id, String name){
+    public UserResponce(long id, String name, String email){
         this.id = id;
         this.name = name;
+        this.email = email;
+    }
+
+    public long getId(){
+        return id;
     }
 
     public String getName() {
         return name;
+    }
+
+    public String getEmail(){
+        return email;
     }
 }
