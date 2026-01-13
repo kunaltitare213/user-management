@@ -5,8 +5,9 @@ import org.com.usermanagement.dto.UserResponce;
 import org.com.usermanagement.exception.UserNotFoundException;
 import org.com.usermanagement.repository.UserRepository;
 //import org.com.usermanagement.repository.UserRepositoryHardCOde;
-import org.com.usermanagement.entity.User;
+import org.com.usermanagement.userEntity.User;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.DeleteMapping;
 
 import java.util.List;
 

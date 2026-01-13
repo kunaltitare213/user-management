@@ -1,4 +1,4 @@
-package org.com.usermanagement.entity;
+package org.com.usermanagement.userEntity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
